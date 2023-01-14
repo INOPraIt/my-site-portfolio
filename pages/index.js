@@ -16,7 +16,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoGithub, IoLogoGoogle } from 'react-icons/io5'
 import IoLogoTelegram from '../components/icons/telegram'
-import IoLogoHackerone from '../components/icons/hackerone'
 
 const Home = () => (
   <Layout>
