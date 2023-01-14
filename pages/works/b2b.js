@@ -17,13 +17,12 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web/Android/IOS</span>
+          <span>Web/Android</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Django, PostgreSQL, Celery, NodeJS, Fastify, React, React Native
-            Expo, MongoDB, Redux Saga
+            React, React-native, Redux, Redux-saga, Html, Css, Adaptive layout
           </span>
         </ListItem>
       </List>

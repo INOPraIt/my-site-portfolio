@@ -46,7 +46,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Georgiy is a freelance and a full-stack developer based in Kaliningrad
+          Dmitry is a freelance and a full-stack developer based in Yaroslavl
           with a passion for building digital services/stuff he wants. He has a
           knack for all things launching products, from planning and designing
           all the way to solving real-life problems with code.
@@ -59,7 +59,6 @@ const Home = () => (
           </NextLink>
         </Box>
       </Section>
-
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
@@ -69,44 +68,35 @@ const Home = () => (
           Born in Moscow, Russia.
         </BioSection>
         <BioSection>
-          <BioYear>2016</BioYear>
-          Started mastering art of code and design, making simple programs in
-          compiling languages (c, c++), creating 3d models, games and much more)
-        </BioSection>
-        <BioSection>
-          <BioYear>2018</BioYear>
-          Worked as a Cyber Security Analyst on various hacking platforms.
-        </BioSection>
-        <BioSection>
           <BioYear>2020</BioYear>
-          Working as a freelance Developer on various freelancing platforms.
+          I started programming by studying htmk, chss and js. I also studied 
+          video editing, photoshop and after effects in parallel.
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
-          Working at{' '}
-          <NextLink href="https://itexp.pro" passHref>
-            <Link target="_blank">IT Expert</Link>
-          </NextLink>{' '}
-          as a Python Backend Developer
+          <BioYear>2021</BioYear>
+            Worked as a freelancer while doing pet projects
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          He taught react, redux-toolkit, redux-saga, and also studied how server 
+          technologies such as node js, express, mongodb db and mongoose work.
         </BioSection>
       </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music, Drawing, Playing Piano, Machine Learning
+          Art, Music, Сomputer-science, Installation-vidios
         </Paragraph>
       </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/aloony" target="_blank">
+            <Link href="https://github.com/INOPraIt" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -123,29 +113,18 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGoogle />}
               >
-                npp3rzwi@gmail.com
+                ryzevdmitrij@gmail.com
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://t.me/aloonyyy" target="_blank">
+            <Link href="https://t.me/Ryzhev_3301" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTelegram />}
               >
                 telegram
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://hackerone.com/aloony" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoHackerone />}
-              >
-                hackerone
               </Button>
             </Link>
           </ListItem>

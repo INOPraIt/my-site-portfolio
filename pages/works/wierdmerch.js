@@ -28,11 +28,11 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>NodeJS, Typescript, MongoDB, API&apos;s, React, Express</span>
+            <span>React, React-native, Redux, Redux-saga, Html, Scss, Adaptive layout</span>
           </ListItem>
           <ListItem>
             <Meta>Team</Meta>
-            <span><Link href="https://github.com/aloony">aloony</Link> && <Link href="https://github.com/IATNAOD">IATNAOD</Link></span>
+            <span><Link href="https://github.com/INOPraIt">InopraIt</Link> && <Link href="https://github.com/IATNAOD">IATNAOD</Link></span>
           </ListItem>
         </List>
   

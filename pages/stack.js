@@ -2,22 +2,9 @@ import { Container, Heading, Box } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 
 const stack = [
-  'Python',
-  'Django',
-  'PostgreSQL',
-  'Celery',
-  'Rabbitmq',
-  'Redis',
-  'Elasticsearch',
-  'Django Rest Framework (DRF)',
-  'Django channels',
-  'Pika',
-  'Aiohttp',
-  'Asyncio',
-  'Flask',
-  'Docker',
-  'Docker-compose',
-  'Nginx',
+  'Html',
+  'Css',
+  'jQuery',
   'Javascript',
   'Typescript',
   'Node.js',
@@ -27,15 +14,17 @@ const stack = [
   'Next.js',
   'React.js',
   'Redux',
-  'Redux saga',
+  'Redux-saga',
+  'Redux-toolkit',
   'React Native',
-  'Puppeteer',
   'Tailwindcss',
-  'Linux',
-  'Design Patterns',
-  'Browser Automation',
-  'OpenCV'
-].join(' • ')
+  'Git',
+  'Parcel',
+  'Create-react-app',
+  'Less',
+  'Scss',
+  'Sass'
+].join(' • ');
 
 const Stack = () => (
   <Layout title="Works">
