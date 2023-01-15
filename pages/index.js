@@ -68,7 +68,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          I started programming by studying htmk, chss and js. I also studied 
+          I started programming by studying html, css and js. I also studied 
           video editing, photoshop and after effects in parallel.
         </BioSection>
         <BioSection>
