@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbWierdmerch from '../public/images/works/wierdmerch_eyecatch.jpg'
 import thumbB2B from '../public/images/works/b2b_eyecatch.png'
+import thumbArbit from '../public/images/works/arbit_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -29,11 +30,11 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="wierdmerch"
-            title="Weird Merch"
-            thumbnail={thumbWierdmerch}
+            id="arbit"
+            title="ARBIT"
+            thumbnail={thumbArbit}
           >
-            Customkghjdiogjdriogdrsj
+            Cryptocurrency arbitrage service
           </WorkGridItem>
         </Section>
       </SimpleGrid>
