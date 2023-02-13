@@ -4,10 +4,10 @@ import {
     List,
     ListItem,
     Link
-  } from '@chakra-ui/react'
-  import { Title, WorkImage, Meta } from '../../components/work'
-  import P from '../../components/paragraph'
-  import Layout from '../../components/layouts/article'
+  } from '@chakra-ui/react';
+  import { Title, WorkImage, Meta } from '../../components/work';
+  import P from '../../components/paragraph';
+  import Layout from '../../components/layouts/article';
   
   const Work = () => (
     <Layout title="Discord">
@@ -41,8 +41,8 @@ import {
         <WorkImage src="/images/works/wierdmerch_03.jpg" alt="wierdmerch" />
       </Container>
     </Layout>
-  )
+  );
   
-  export default Work
-  export { getServerSideProps } from '../../components/chakra'
+  export default Work;
+  export { getServerSideProps } from '../../components/chakra';
   
