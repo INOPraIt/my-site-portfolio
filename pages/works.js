@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbWierdmerch from '../public/images/works/wierdmerch_eyecatch.jpg'
 import thumbB2B from '../public/images/works/b2b_eyecatch.png'
 import thumbArbit from '../public/images/works/arbit_eyecatch.png'
+import thumbSale from '../public/images/works/sale_01.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -33,6 +34,15 @@ const Works = () => (
             id="arbit"
             title="ARBIT"
             thumbnail={thumbArbit}
+          >
+            Cryptocurrency arbitrage service
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="sale"
+            title="SiteSale"
+            thumbnail={thumbSale}
           >
             Cryptocurrency arbitrage service
           </WorkGridItem>
