@@ -27,6 +27,15 @@ const Works = () => (
             Custom clothing marketplace
           </WorkGridItem>
         </Section>
+        <Section>
+          <WorkGridItem
+            id="wierdmerch"
+            title="Weird Merch"
+            thumbnail={thumbWierdmerch}
+          >
+            Customkghjdiogjdriogdrsj
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
     </Container>
   </Layout>
