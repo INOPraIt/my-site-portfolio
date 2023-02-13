@@ -10,25 +10,25 @@ const Work = () => (
         B2B Marketplace <Badge>2022</Badge>
       </Title>
       <P>
-        A B2B marketplace app with personal pricings for each buyer and embedded
-        full-featured chat. Website and mobile application for both Android and
-        IOS
+        The site is designed to teach people how to earn money with cryptocurrency. 
+        The site is made on React, deployed on parcel. 
+        The redux-saga library was used for the front-end request logic.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web/Android</span>
+          <span>Web</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            React, React-native, Redux, Redux-saga, Html, Css, Adaptive layout
+            React, Redux, Redux-saga, Html, Scss, Adaptive layout
           </span>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/works/b2b_01.png" alt="B2B" />
-      <WorkImage src="/images/works/b2b_02.png" alt="B2B" />
+      <WorkImage src="/images/works/arbit_eyecatch.png" alt="arbit" />
+      <WorkImage src="/images/works/arbit_01.png" alt="arbit" />
+      <WorkImage src="/images/works/arbit_02.png" alt="arbit" />
     </Container>
   </Layout>
 )
