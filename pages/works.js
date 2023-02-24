@@ -31,15 +31,6 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="arbit"
-            title="ARBIT"
-            thumbnail={thumbArbit}
-          >
-            Cryptocurrency arbitrage service
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
             id="sale"
             title="SiteSale"
             thumbnail={thumbSale}
