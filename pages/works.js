@@ -1,12 +1,10 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
-
-import thumbWierdmerch from '../public/images/works/wierdmerch_eyecatch.jpg'
-import thumbB2B from '../public/images/works/b2b_eyecatch.png'
-import thumbArbit from '../public/images/works/arbit_eyecatch.png'
-import thumbSale from '../public/images/works/sale_01.png'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+import { WorkGridItem } from '../components/grid-item';
+import thumbWierdmerch from '../public/images/works/wierdmerch_eyecatch.jpg';
+import thumbB2B from '../public/images/works/b2b_eyecatch.png';
+import thumbSale from '../public/images/works/sale_01.png';
 
 const Works = () => (
   <Layout title="Works">
